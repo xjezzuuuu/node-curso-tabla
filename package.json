@@ -1,0 +1,21 @@
+{
+  "name": "03-package.json",
+  "version": "1.0.0",
+  "description": "Es una simple tabla de multiplicar con archivo de texto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon app",
+    "base3": "node app --base=3"
+  },
+  "keywords": [],
+  "author": "Jesus Padilla",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
